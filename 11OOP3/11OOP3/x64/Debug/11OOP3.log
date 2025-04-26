@@ -1,0 +1,19 @@
+﻿  11OOP3.cpp
+C:\Users\Semyon\source\repos\11OOP3\11OOP3\Vector.h(56,31): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "11OOP3.cpp")
+      C:\Users\Semyon\source\repos\11OOP3\11OOP3\Vector.h(56,31):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\Semyon\source\repos\11OOP3\11OOP3\11OOP3.cpp(12,23):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "Vector<Money>"
+          C:\Users\Semyon\source\repos\11OOP3\11OOP3\Vector.h(53,7):
+          во время компиляции функции-члена класс шаблон "T Vector<T>::calculateAverage(void) const"
+          with
+          [
+              T=Money
+          ]
+              C:\Users\Semyon\source\repos\11OOP3\11OOP3\Vector.h(61,17):
+              см. первую ссылку на Vector<Money>::calculateAverage "Vector<Money>::addAverageToEach"
+              C:\Users\Semyon\source\repos\11OOP3\11OOP3\11OOP3.cpp(31,28):
+              см. первую ссылку на Vector<Money>::addAverageToEach "main"
+  
+  11OOP3.vcxproj -> C:\Users\Semyon\source\repos\11OOP3\x64\Debug\11OOP3.exe
